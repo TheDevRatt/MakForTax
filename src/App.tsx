@@ -7,6 +7,6 @@ function App() {
       <h1 className="text-3xl font-bold text-white underline">Hello world!</h1>
     </>
   );
-}reesr
+}
 
 export default App;
