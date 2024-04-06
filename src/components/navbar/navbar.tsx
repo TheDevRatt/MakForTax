@@ -66,61 +66,43 @@ const Navbar: React.FC = () => {
                 className="text-base h-11 pl-4 pr-4 rounded-md gap-2 font-semibold dark:bg-slate-3 border-slate-6 dark:text-slate-11 bg-slate-2 text-slate-12 hover:bg-slate-4 focus-visible:ring-2 focus-visible:ring-slate-7 focus-visible:outline-none focus-visible:bg-slate-4 disabled:hover:bg-slate-4 inline-flex items-center border justify-center select-none disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 mb-4 w-full"
                 href="/login"
               >
-                Sign In
+                Learn More
               </a>
               <a
                 className="text-base h-11 pl-4 pr-4 rounded-md gap-2 font-semibold bg-black dark:bg-white text-white dark:text-black border-slate-6 hover:bg-black/90 dark:hover:bg-white/90 focus-visible:ring-2 dark:focus-visible:ring-white/40 focus-visible:ring-black/40 focus-visible:outline-none dark:focus-visible:bg-white/90 focus-visible:bg-black/90 disabled:hover:bg-black dark:disabled:hover:bg-white inline-flex items-center border justify-center select-none disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 mb-4 w-full"
                 href="/signup"
               >
-                Get Started
+                Contact
               </a>
               <a
-                className="text-md block w-full border-b border-slate-6 py-4 font-semibold text-slate-11 transition duration-200 ease-in-out last:border-none hover:text-slate-12"
+                className="text-left text-md block w-full border-b border-slate-600 py-4 font-semibold text-slate-400 transition duration-200 ease-in-out last:border-none hover:text-slate-200"
                 href="/about"
               >
-                About
+                Home
               </a>
               <a
-                className="text-md block w-full border-b border-slate-6 py-4 font-semibold text-slate-11 transition duration-200 ease-in-out last:border-none hover:text-slate-12"
+                className="text-left text-md block w-full border-b border-slate-600 py-4 font-semibold text-slate-400 transition duration-200 ease-in-out last:border-none hover:text-slate-200"
                 href="/blog"
               >
-                Blog
+                About Us
               </a>
               <a
-                className="text-md block w-full border-b border-slate-6 py-4 font-semibold text-slate-11 transition duration-200 ease-in-out last:border-none hover:text-slate-12"
+                className="text-left text-md block w-full border-b border-slate-600 py-4 font-semibold text-slate-400 transition duration-200 ease-in-out last:border-none hover:text-slate-200"
                 href="/customers"
               >
-                Customers
+                Services
               </a>
               <a
-                className="text-md block w-full border-b border-slate-6 py-4 font-semibold text-slate-11 transition duration-200 ease-in-out last:border-none hover:text-slate-12"
+                className="text-left text-md block w-full border-b border-slate-600 py-4 font-semibold text-slate-400 transition duration-200 ease-in-out last:border-none hover:text-slate-200"
                 href="/pricing"
               >
-                Pricing
+                Testimonials
               </a>
               <a
-                className="text-md block w-full border-b border-slate-6 py-4 font-semibold text-slate-11 transition duration-200 ease-in-out last:border-none hover:text-slate-12"
+                className="text-left text-md block w-full border-b border-slate-600 py-4 font-semibold text-slate-400 transition duration-200 ease-in-out last:border-none hover:text-slate-200"
                 href="/enterprise"
               >
-                Enterprise
-              </a>
-              <a
-                className="text-md block w-full border-b border-slate-6 py-4 font-semibold text-slate-11 transition duration-200 ease-in-out last:border-none hover:text-slate-12"
-                href="/changelog"
-              >
-                Changelog
-              </a>
-              <a
-                className="text-md block w-full border-b border-slate-6 py-4 font-semibold text-slate-11 transition duration-200 ease-in-out last:border-none hover:text-slate-12"
-                href="/docs"
-              >
-                Docs
-              </a>
-              <a
-                className="text-md block w-full border-b border-slate-6 py-4 font-semibold text-slate-11 transition duration-200 ease-in-out last:border-none hover:text-slate-12"
-                href="/contact"
-              >
-                Contact
+                FAQ
               </a>
             </div>
           </div>
