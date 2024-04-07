@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
                 aria-controls="mobile-menu"
                 aria-expanded={isMenuOpen ? "true" : "false"}
                 aria-label="menu"
-                className="inline-flex items-center justify-center rounded-md p-1 text-slate-11 transition ease-in-out hover:bg-slate-5 hover:text-slate-12 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-6"
+                className="inline-flex items-center justify-center rounded-md p-1 text-slate-11 transition ease-in-out hover:bg-slate-800 hover:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-6"
                 type="button"
                 onClick={toggleMenu}
               >
@@ -63,13 +63,13 @@ const Navbar: React.FC = () => {
           >
             <div className="flex w-full flex-col">
               <a
-                className="text-base h-11 pl-4 pr-4 rounded-md gap-2 font-semibold dark:bg-slate-3 border-slate-6 dark:text-slate-11 bg-slate-2 text-slate-12 hover:bg-slate-4 focus-visible:ring-2 focus-visible:ring-slate-7 focus-visible:outline-none focus-visible:bg-slate-4 disabled:hover:bg-slate-4 inline-flex items-center border justify-center select-none disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 mb-4 w-full"
+                className="text-base h-11 pl-4 pr-4 rounded-md gap-2 font-semibold dark:bg-slate-800 border-slate-500 dark:text-slate-100 bg-slate-200 text-slate-900 hover:bg-slate-400 focus-visible:ring-2 focus-visible:ring-slate-7 focus-visible:outline-none focus-visible:bg-slate-4 disabled:hover:bg-slate-4 inline-flex items-center border justify-center select-none disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 mb-4 w-full"
                 href="/login"
               >
                 Learn More
               </a>
               <a
-                className="text-base h-11 pl-4 pr-4 rounded-md gap-2 font-semibold bg-black dark:bg-white text-white dark:text-black border-slate-6 hover:bg-black/90 dark:hover:bg-white/90 focus-visible:ring-2 dark:focus-visible:ring-white/40 focus-visible:ring-black/40 focus-visible:outline-none dark:focus-visible:bg-white/90 focus-visible:bg-black/90 disabled:hover:bg-black dark:disabled:hover:bg-white inline-flex items-center border justify-center select-none disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 mb-4 w-full"
+                className="text-base h-11 pl-4 pr-4 rounded-md gap-2 font-semibold bg-black dark:bg-white text-white dark:text-black border-slate-500 hover:bg-black/90 dark:hover:bg-white/90 focus-visible:ring-2 dark:focus-visible:ring-white/40 focus-visible:ring-black/40 focus-visible:outline-none dark:focus-visible:bg-white/90 focus-visible:bg-black/90 disabled:hover:bg-black dark:disabled:hover:bg-white inline-flex items-center border justify-center select-none disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 mb-4 w-full"
                 href="/signup"
               >
                 Contact
