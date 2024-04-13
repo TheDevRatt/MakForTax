@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
           <div className="flex w-full items-center px-6 py-4">
             <div className="flex-auto">
               <a
-                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-7"
+                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-700"
                 href="/home"
               >
                 <img src={logo} />
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
                 aria-controls="mobile-menu"
                 aria-expanded={isMenuOpen ? "true" : "false"}
                 aria-label="menu"
-                className="inline-flex items-center justify-center rounded-md p-1 text-slate-11 transition ease-in-out hover:bg-slate-800 hover:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-6"
+                className="inline-flex items-center justify-center rounded-md p-1 text-slate-400 transition ease-in-out hover:bg-slate-800 hover:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-600"
                 type="button"
                 onClick={toggleMenu}
               >
@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
           >
             <div className="flex w-full flex-col">
               <a
-                className="text-base h-11 pl-4 pr-4 rounded-md gap-2 font-semibold dark:bg-slate-800 border-slate-500 dark:text-slate-100 bg-slate-200 text-slate-900 hover:bg-slate-400 focus-visible:ring-2 focus-visible:ring-slate-7 focus-visible:outline-none focus-visible:bg-slate-4 disabled:hover:bg-slate-4 inline-flex items-center border justify-center select-none disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 mb-4 w-full"
+                className="text-base h-11 pl-4 pr-4 rounded-md gap-2 font-semibold dark:bg-slate-800 border-slate-500 dark:text-slate-100 bg-slate-200 text-slate-900 hover:bg-slate-400 focus-visible:ring-2 focus-visible:ring-slate-700 focus-visible:outline-none focus-visible:bg-slate-400 disabled:hover:bg-slate-400 inline-flex items-center border justify-center select-none disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 mb-4 w-full"
                 href="/login"
               >
                 Learn More
@@ -115,7 +115,7 @@ const Navbar: React.FC = () => {
               style={{ WebkitTouchCallout: "none" }}
             >
               <a
-                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-7 py-1"
+                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-700 py-1"
                 aria-label="Resend"
                 href="/home"
               >
@@ -126,7 +126,7 @@ const Navbar: React.FC = () => {
           <ul className="flex items-center gap-4">
             <li>
               <a
-                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-7 rounded-md px-1 py-1 text-sm font-medium text-slate-11 hover:text-slate-12 focus-visible:text-slate-12 lg:px-2"
+                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-700 rounded-md px-1 py-1 text-sm font-medium text-slate-400 hover:text-slate-100 focus-visible:text-slate-200 lg:px-2"
                 href="/about"
               >
                 Home
@@ -134,7 +134,7 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a
-                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-7 rounded-md px-1 py-1 text-sm font-medium text-slate-11 hover:text-slate-12 focus-visible:text-slate-12 lg:px-2"
+                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-700 rounded-md px-1 py-1 text-sm font-medium text-slate-400 hover:text-slate-100 focus-visible:text-slate-200 lg:px-2"
                 href="/blog"
               >
                 About Us
@@ -142,7 +142,7 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a
-                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-7 rounded-md px-1 py-1 text-sm font-medium text-slate-11 hover:text-slate-12 focus-visible:text-slate-12 lg:px-2"
+                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-700 rounded-md px-1 py-1 text-sm font-medium text-slate-400 hover:text-slate-100 focus-visible:text-slate-200 lg:px-2"
                 href="/customers"
               >
                 Services
@@ -150,7 +150,7 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a
-                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-7 rounded-md px-1 py-1 text-sm font-medium text-slate-11 hover:text-slate-12 focus-visible:text-slate-12 lg:px-2"
+                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-700 rounded-md px-1 py-1 text-sm font-medium text-slate-400 hover:text-slate-100 focus-visible:text-slate-200 lg:px-2"
                 href="/enterprise"
               >
                 Testimonials
@@ -158,14 +158,14 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a
-                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-7 rounded-md px-1 py-1 text-sm font-medium text-slate-11 hover:text-slate-12 focus-visible:text-slate-12 lg:px-2"
+                className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-700 rounded-md px-1 py-1 text-sm font-medium text-slate-400 hover:text-slate-100 focus-visible:text-slate-200 lg:px-2"
                 href="/changelog"
               >
                 FAQ
               </a>
             </li>
             <a
-              className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-7 text-sm h-10 pl-4 pr-2 gap-0 font-semibold bg-white text-black hover:bg-white/90 focus-visible:ring-4 focus-visible:ring-white/30 focus-visible:outline-none focus-visible:bg-white/90 disabled:hover:bg-white inline-flex items-center border justify-center select-none rounded-full disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200"
+              className="outline-none transition duration-150 ease-in-out focus-visible:ring-2 focus-visible:ring-slate-700 text-sm h-10 pl-4 pr-2 gap-0 font-semibold bg-white text-black hover:bg-white/90 focus-visible:ring-white/30 focus-visible:outline-none focus-visible:bg-white/90 disabled:hover:bg-white inline-flex items-center border justify-center select-none rounded-full disabled:cursor-not-allowed disabled:opacity-70"
               data-state="closed"
               href="/signup"
             >
